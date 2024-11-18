@@ -1,0 +1,55 @@
+/* General styling for the app */
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+.app {
+  margin-top: 4rem;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Styling for the video container */
+.video-container {
+  position: relative;
+  width: 640px;
+  height: 480px;
+  margin: 0 auto;
+}
+
+/* Styling for the video element */
+video {
+  width: 100%;
+  height: 100%;
+  display: block; /* Ensures it fills the container and doesn't have unwanted spacing */
+  border: 2px solid black;
+  border-radius: 8px; /* Optional: adds rounded corners */
+}
+
+/* Styling for the canvas element */
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; 
+  border-radius: 8px; 
+}
+
+/* Styling for the authentication status */
+.authentication-status {
+  margin-top: 20px;
+}
+
+.authentication-status p {
+  font-size: 18px;
+  font-weight: bold;
+}

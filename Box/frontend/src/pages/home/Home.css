@@ -1,0 +1,60 @@
+/* src/HomePage.css */
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh; /* Full viewport height */
+  background: linear-gradient(135deg, #2f3b47 0%, #1a242f 100%); /* Subtle gradient background */
+  padding: 20px;
+  color: #ffffff; /* Default text color */
+  text-align: center;
+}
+
+.delivery-box-wrapper {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delivery-box-image {
+  max-width: 280px;
+  height: auto;
+  /* box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4); Enhanced shadow for the image */
+  border-radius: 15px; /* Smooth corners for the image */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.delivery-box-image:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+  /* box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5); Shadow becomes stronger on hover */
+}
+
+.open-camera-btn {
+  padding: 15px 40px;
+  width: 300px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #66d9ef;
+  background: linear-gradient(90deg, #0073e6 0%, #005bb5 100%);
+  border: none;
+  border-radius: 30px; /* Circular edges */
+  cursor: pointer;
+  box-shadow: 0 8px 15px rgba(0, 115, 230, 0.4); /* Glow effect for the button */
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.open-camera-btn:hover {
+  background: linear-gradient(90deg, #005bb5 0%, #003d80 100%);
+  transform: translateY(-5px); /* Slight upward movement on hover */
+}
+
+.open-camera-btn:active {
+  transform: translateY(2px); /* Button moves down slightly on click */
+  box-shadow: 0 4px 10px rgba(0, 115, 230, 0.2); /* Reduced shadow on click */
+}
+button{
+  width: 40px;
+}

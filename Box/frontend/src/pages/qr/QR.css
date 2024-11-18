@@ -1,0 +1,23 @@
+.qr-container {
+
+    /* height: 100vh; */
+    margin-top: 2rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.qr-container img {
+
+    display: flex;
+    width: 400px;
+    height: 400px;
+    
+}
+
+img{
+    height: 500px;
+    width: 400px;
+}
